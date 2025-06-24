@@ -36,6 +36,26 @@ export default function Home() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <Card>
               <CardHeader>
+                <CardTitle>🎯 Kanban Board</CardTitle>
+                <CardDescription>
+                  Organize your tasks with a beautiful kanban-style board
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Experience our fully-featured kanban board with drag-and-drop functionality, 
+                  task prioritization, and beautiful shadcn/ui components.
+                </p>
+              </CardContent>
+              <CardFooter>
+                <Button asChild className="w-full">
+                  <a href="/tasks/board">View Kanban Board</a>
+                </Button>
+              </CardFooter>
+            </Card>
+
+            <Card>
+              <CardHeader>
                 <CardTitle>shadcn/ui Button</CardTitle>
                 <CardDescription>
                   Various button styles and variants
